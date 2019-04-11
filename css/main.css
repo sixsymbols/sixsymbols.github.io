@@ -123,7 +123,7 @@ textarea {
  */
 
 .ir {
-    background-color: transparent;
+    background-color: #ff9f99;
     border: 0;
     overflow: hidden;
     /* IE 6/7 fallback */
