@@ -530,10 +530,10 @@ background: #FFFFFF; width: 555px;}
 	9) footer Start
 ===========================*/
 
-#footer{background: #2D312F;text-align: center; padding-top: 75px; padding-bottom: 50px;}
+#footer{background: #ff9f99;text-align: center; padding-top: 75px; padding-bottom: 50px;}
 #footer .block{}
 .footer-contant{}
-.footer-contant h3{color:#8C9494; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 400;margin: 0px; padding-bottom: 30px;}
+.footer-contant h3{color:#ffffff; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 400;margin: 0px; padding-bottom: 30px;}
 .social-icon{}
 .social-icon a{margin-right: 10px;}
 .social-icon a i{background: #5d6461;
