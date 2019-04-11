@@ -547,6 +547,18 @@ width: 42px;}
 .support-link ul{margin:0px; padding: 0px; list-style: none;}
 .support-link ul li{display: inline-block; padding: 0px 10px}
 .support-link ul li a{display: inline-block; color: #8C9494; font-size: 30px}
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('topbutton.png') no-repeat;
+}
+
 
 /*=========================
 	 footer CLOSE
