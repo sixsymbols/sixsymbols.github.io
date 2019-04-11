@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {font-weight:normal;margin:0 0 15px;}
 #header .block-right{}
 .contact-area{text-align: right; margin-top: 10px;}
 .contact-area ul{margin: 0px; padding: 0px; list-style: none;}
-.contact-area ul li{display: inline-block; margin-left: 40px; color:#3C3D42; font-size: 17px; font-family: 'Raleway', sans-serif; font-weight: 400px; }
+.contact-area ul li{display: inline-block; margin-left: 40px; color:#3C3D42; font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400px; }
 .contact-area ul li i{margin-right: 10px; font-size: 18px; }
 
 
@@ -403,7 +403,7 @@ width: 102px;}
 .contant-1-head h1{ font-size: 36px;font-family: 'Raleway', sans-serif; font-weight: 700;color: #5DCA88;}
 .contant-1-text{padding-top: 40px}
 .contant-1-text h2{color:#8C9494; font-size: 35px; font-family: 'Raleway', sans-serif; font-weight: 400; padding-bottom: 25px}
-.contant-1-text p{color:#ABB2B4; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; margin:0px;}
+.contant-1-text p{color:#ABB2B4; font-size: 19px; font-family: 'Raleway', sans-serif; font-weight: 400; margin:0px;}
 .edit-button-2{background: none; border: 3px solid #AAB2B5; border-radius: 30px; color: #636c6c;padding: 8px 50px;font-size: 21px;font-family: 'Raleway', sans-serif; font-weight: 700; margin-top: 50px}
 .edit-button-2:hover{background: none;border: 3px solid #AAB2B5; color: #636c6c;}
 #contant-1 .block-right{ text-align: center}
