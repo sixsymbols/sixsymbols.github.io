@@ -11,11 +11,11 @@
     <script>
         var Pushwoosh = Pushwoosh || [];  
 	Pushwoosh.pwinboxWidget.toggle(open?: boolean);
-	InboxMessagesModel.updateMessages;
-	Pushwoosh.pwinbox.unreadMessagesCount;
-	Pushwoosh.pwinbox.loadMessages;
-	Pushwoosh.pwinbox.readMessagesWithCodes;
-	Pushwoosh.pwinbox.performActionForMessageWithCode;
+	InboxMessagesModel.updateMessages ();
+	Pushwoosh.pwinbox.unreadMessagesCount();
+	Pushwoosh.pwinbox.loadMessages();
+	Pushwoosh.pwinbox.readMessagesWithCodes();
+	Pushwoosh.pwinbox.performActionForMessageWithCode();
 	Pushwoosh.push(['onUpdateInboxMessages', function(api, pwinbox) {
         pwinbox.loadMessages().then(function(messages) {
         console.log('EVENT: onUpdateInboxMessages', messages);
