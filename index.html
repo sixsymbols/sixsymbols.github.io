@@ -22,7 +22,14 @@
 	  successSubscribe: 'Great Choice!',
           needSubscribe: 'Get zero notifications every day!',
           blockSubscribe: 'Click to see how to get 0 notifications',
-          alreadySubscribed: 'You are already subscribed'
+          alreadySubscribed: 'You are already subscribed',
+          inboxWidget: {
+          enable: true,
+          triggerId: 'pwInbox',
+          title: 'Inbox',                              
+          emptyInboxTitle: 'You\'re all caught up',       
+          emptyInboxText: 'There are no new messages. Stay tuned!'  
+             }		  
 	  }
       }	      
 }]);
@@ -95,18 +102,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div><!-- .row close -->
             </div><!-- .container close -->
         </section><!-- #heder close -->
-<script>
-Pushwoosh.push(['init', {
-  ...,
-  inboxWidget: {
-    enable: true,
-    triggerId: 'pwInbox',
-    title: 'Inbox',                              
-    emptyInboxTitle: 'You\'re all caught up',       
-    emptyInboxText: 'There are no new messages. Stay tuned!'  
-  }
-}]);
-</script>
 
         <!-- Slider Start
         ============================================================== -->
