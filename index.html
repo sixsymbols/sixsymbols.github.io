@@ -9,9 +9,7 @@
     <link rel="manifest" href="./manifest.json">
     <script src="https://cdn.pushwoosh.com/webpush/v3/pushwoosh-web-notifications.js" async></script>
     <script>
-        var Pushwoosh = Pushwoosh || [];
-	Pushwoosh.push(['InboxMessagesModel.updateMessages' function(api, pwinbox) {
-          console.log('EVENT: InboxMessagesModel.updateMessages', messages);    
+        var Pushwoosh = Pushwoosh || [];    
         Pushwoosh.push(["init", {
           logLevel: 'info', 
           applicationCode: 'A2820-E7ABD',
@@ -24,17 +22,9 @@
 	  successSubscribe: 'Great Choice!',
           needSubscribe: 'Get zero notifications every day!',
           blockSubscribe: 'Click to see how to get 0 notifications',
-          alreadySubscribed: 'You are already subscribed',
-          inboxWidget: {
-          enable: true,
-          triggerId: 'pwInbox',
-          title: 'Inbox',                              
-          emptyInboxTitle: 'You\'re all caught up',       
-          emptyInboxText: 'There are no new messages. Stay tuned!'  
-		}	
+          alreadySubscribed: 'You are already subscribed',	
              }		  
-	  }
-      }])	      
+       }	      
 }]);
   </script>	     
         <meta charset="utf-8">
@@ -63,6 +53,18 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3FHNV5"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+	    <script>
+	    Pushwoosh.push(['init', {
+            Pushwoosh.push(['InboxMessagesModel.updateMessages' function(api, pwinbox) {
+            console.log('EVENT: InboxMessagesModel.updateMessages', messages);
+            inboxWidget: {
+
+            enable: true,
+            triggerId: 'pwInbox',
+            appendTo: '.widget-parent-element-class'
+  }
+}]);
+	    </script>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="block-left">
