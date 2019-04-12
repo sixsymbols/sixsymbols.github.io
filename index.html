@@ -34,6 +34,14 @@
       }	      
 }]);
   </script>
+	     <script>
+          var Pushwoosh = Pushwoosh || [];  
+	  Pushwoosh.push(['InboxMessagesModel.updateMessages' function(api, pwinbox) {
+          pwinbox.loadMessages().then(function(messages) {
+          console.log('EVENT: InboxMessagesModel.updateMessages', messages);
+  });
+}]);
+	    </script>	     
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
