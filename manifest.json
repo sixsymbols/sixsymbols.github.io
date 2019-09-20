@@ -1,7 +1,7 @@
 {
   "name": "https://sixsymbols.github.io",
   "short_name": "Pushwoosh Notifications",
-  "gcm_sender_id": "868226396579",
+  "gcm_sender_id": "997194643318",
   "display": "standalone",
   "gcm_user_visible_only": true
 }
