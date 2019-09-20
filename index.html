@@ -35,18 +35,21 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 	        <script>
-        var Pushwoosh = Pushwoosh || [];    
-        Pushwoosh.push(["init", {
-          logLevel: 'info', 
-          applicationCode: '10D2D-FA1A3',
-          defaultNotificationTitle: 'Pushwoosh',
-          defaultNotificationImage: 'https://cp.pushwoosh.com/img/logo-medium.png',
-	  autoSubscribe: true,	
-            subscribeWidget: {
-            enable: false,
-  }
+var Pushwoosh = Pushwoosh || [];
+Pushwoosh.push(['init', {
+    logLevel: 'info',
+    applicationCode: '10D2D-FA1A3', 
+    defaultNotificationTitle: 'Pushwoosh', 
+    defaultNotificationImage: 'https://yoursite.com/img/logo-medium.png', 
+    autoSubscribe: false, 
+    subscribeWidget: {
+      enabled: true
+    },
+    userId: 'user_id', 
+    tags: {
+        'Name': 'John Smith'  
+    }										
 }]);
-});
   </script>	
                 <div class="row">
                     <div class="col-md-6">
