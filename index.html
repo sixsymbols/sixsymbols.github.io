@@ -41,14 +41,11 @@ Pushwoosh.push(['init', {
     applicationCode: 'A2820-E7ABD', 
     defaultNotificationTitle: 'Pushwoosh', 
     defaultNotificationImage: 'https://yoursite.com/img/logo-medium.png', 
-    autoSubscribe: true, 
+    autoSubscribe: true, // <- your service worker url
     subscribeWidget: {
-      enabled: false
+      enabled: false 
     },
-    userId: 'user_id', 
-    tags: {
-        'Name': 'John Smith'  
-    }										
+	
 }]);
   </script>	
                 <div class="row">
