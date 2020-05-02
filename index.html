@@ -41,11 +41,37 @@ Pushwoosh.push(['init', {
     applicationCode: 'A2820-E7ABD', 
     defaultNotificationTitle: 'Pushwoosh', 
     defaultNotificationImage: 'https://yoursite.com/img/logo-medium.png', 
-    autoSubscribe: true, // <- your service worker url
+    autoSubscribe: false, // <- your service worker url
     subscribeWidget: {
       enabled: false 
     },
-	
+	 subscribePopup: {
+        enable: true,          // (boolean) popup activation
+        text: 'Text on popup', // (string) a text to display on the popup 
+        askLaterButtonText: 'Not now', // (string) custom text for the “Ask later” button         
+        confirmSubscriptionButtonText: 'Subscribe', // (string) custom text for the “Subscribe” button 
+        iconUrl: 'https://...',  // (string) custom icon URL
+        delay: 60,             // (integer) a delay between the page loading and popup appearance 
+        retryOffset: 604800,   // (integer) an offset in seconds to display the popup again 
+        overlay: false,        // (boolean) enables page overlaying when popup is displayed
+        position: 'top',       // (string) position on the page. Possible values: ’top' | 'center' | 'bottom’
+         
+        bgColor: '#fff',                         // (string) popup’s background color
+        borderColor: 'transparent',              // (string) popup’s border color
+        boxShadow: '0 3px 6px rgba(0,0,0,0.16)', // (string) popup’s shadow
+         
+        textColor: '#000',      // (string) popup’s text color 
+        textSize: 'inherit',    // (string) popup’s text size
+        fontFamily: 'inherit',  // (string) popup’s text font 
+         
+        subscribeBtnBgColor: '#4285f4',     // (string) “Subscribe” button’s color
+        subscribeBtnTextColor: '#fff',      // (string) “Subscribe” button text’s color 
+         
+        askLaterBtnBgColor: 'transparent',  // (string) “Ask later” button’s color
+        askLaterBtnTextColor: '#000',        // (string) “Ask later” button text’s color
+        
+        theme: 'material' // or 'topbar'. A popup theme, see the details below      
+    }   	
 }]);
   </script>	
                 <div class="row">
